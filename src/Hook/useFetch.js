@@ -20,6 +20,7 @@ function useFetch(fetchUrl, dependencies = []) {
     console.log(data);
     return <p>Error!</p>;
   }
+  console.log(data);
   return [data];
 }
 export default useFetch;
