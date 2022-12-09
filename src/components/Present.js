@@ -18,3 +18,4 @@ export default function Present({ link, text, day }) {
     </div>
   );
 }
+
