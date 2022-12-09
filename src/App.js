@@ -22,7 +22,7 @@ function App() {
         height="10%"
       />
       <header>
-        <h1>Advent Calendar of Festive Activities</h1>
+        <h1 className="shimmer">Advent Calendar of Festive Activities</h1>
       </header>
       <Calendar />
       <Snowfall classname="snowfall" />
