@@ -82,6 +82,6 @@ body {
   transform: rotateZ(10deg);
   left: 10px;
 }
-.present:hover .promo {
+.present:hover .activity {
   top: -80px;
 }
