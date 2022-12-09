@@ -1,4 +1,4 @@
-import "./present.css";
+import "../present.css";
 
 export default function Present({ link, text }) {
   return (
