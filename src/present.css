@@ -111,7 +111,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: var(--green);
+    color: var(--text);
   }
   
   /* mouse over link */
