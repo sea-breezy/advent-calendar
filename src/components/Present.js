@@ -10,10 +10,10 @@ export default function Present({ link, text, day }) {
         <a href={link}>{text}</a>
       </div>
       <div className="box">
-        <span>
-          <h2 id="day">{day}</h2>
-        </span>
         <span></span>
+        <span>
+        <h2 id="day">{day}</h2>
+        </span>
       </div>
     </div>
   );
