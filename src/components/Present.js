@@ -1,8 +1,8 @@
 import "../present.css";
 
-export default function Present({ link, text, day }) {
+export default function Present({ link, text, day, presentClass }) {
   return (
-    <div className="present">
+    <div className={presentClass}>
       <div className="lid">
         <span></span>
       </div>
@@ -12,10 +12,9 @@ export default function Present({ link, text, day }) {
       <div className="box">
         <span></span>
         <span>
-        <h2 id="day">{day}</h2>
+          <h2 id="day">{day}</h2>
         </span>
       </div>
     </div>
   );
 }
-

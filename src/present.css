@@ -19,6 +19,13 @@
   margin: 0 auto;
   padding:  1%;;
 }
+
+.old-present .box{
+  --red:var(--green)
+}
+
+
+
 .box, .lid {
   background:
     -webkit-radial-gradient(white 15%, transparent 15.1%),
