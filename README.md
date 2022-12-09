@@ -2,12 +2,24 @@
 
 This festive app will give you Christmas activities ideas wrapped in gift boxes!
 
-The side is deployed at: https://cas-adventcalendar.netlify.app/
-
 <img src="App_screenshot.png" alt="Screenshot of advent calendar app">
+
+## Demo
+
+The site is deployed at: https://cas-adventcalendar.netlify.app/
 
 ## Authors
 
 - [@Camilla](https://github.com/sea-breezy)
 - [@Sophie](https://github.com/sea-breezy)
 - [@alia](https://github.com/aliafarhana88)
+
+## Appendix
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
