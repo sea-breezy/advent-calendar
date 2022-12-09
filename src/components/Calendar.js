@@ -1,3 +1,6 @@
+import "../calendar.css";
+
+
 import Present from "./Present";
 import useFetch from "../Hook/useFetch";
 export default function Calendar() {

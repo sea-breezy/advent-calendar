@@ -98,7 +98,6 @@ a:link {
 /* visited link */
 a:visited {
     color: var(--green);
-    text-decoration-line: none;
   }
   
   /* mouse over link */
