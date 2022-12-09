@@ -4,7 +4,7 @@ import useFetch from "../Hook/useFetch";
 
 export default function Calendar() {
   const url = "https://advent-calendar-cas.onrender.com/api/items";
-  const [data] = useFetch(url, [url]);
+  const [data] = useFetch(url);
   const date = new Date();
   const dayOfDec = date.getDate();
   const month = date.getMonth();

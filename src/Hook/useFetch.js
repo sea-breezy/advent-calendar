@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function useFetch(fetchUrl, dependencies = []) {
+function useFetch(fetchUrl) {
   //console.log(`this is fetch url: ${fetchUrl}`)
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
@@ -13,7 +13,7 @@ function useFetch(fetchUrl, dependencies = []) {
       .then((res) => res.json())
       .then((fetchedData) => setData(fetchedData))
       .catch((err) => setError(err));
-  }, dependencies);
+  }, [fetchUrl]);
 
   if (error) {
     console.log(error);
