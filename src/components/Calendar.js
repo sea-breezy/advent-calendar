@@ -8,10 +8,10 @@ export default function Calendar() {
   ];
 
   return (
-    <>
+    <div div className="calendar">
       {data.map((day) => (
         <Present key={day.id} link={day.link} text={day.text} day={day.day} />
       ))}
-    </>
+    </div>
   );
 }
