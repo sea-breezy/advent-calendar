@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Present from './Present';
+import Present from './components/Present';
 
 function App() {
   return (

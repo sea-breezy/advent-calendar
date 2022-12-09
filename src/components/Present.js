@@ -1,17 +1,20 @@
-import './present.css';
+import '../present.css';
 
 
 export default function Present() {
     return(
         <div className="present">
-            <div className="lid"></div>
-                <span></span>
-            <div className="activity">
+            <div className="lid">
+            <span></span>
+            </div>
+             <div className="activity">
                 <a href='http://www.google.com'>Link Text</a>
             </div>
-            <div className="box"></div>
+            <div className="box">
             <span></span>
             <span></span>
+            </div>
+
         </div>
     )
 }
