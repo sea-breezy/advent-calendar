@@ -8,12 +8,11 @@ h1{
   font-family: "Merienda";
   font-size:70px;
   margin-top:-50px;
-  color: #F8B229;
+  color: #ffc34ac0;
 }
 
 .shimmer {
   text-align: center;
-  color: rgba(255, 255, 255, 0.1);
   background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff));
   background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff));
   background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff));
@@ -26,9 +25,9 @@ h1{
   -webkit-animation-name: shimmer;
   -moz-animation-name: shimmer;
   animation-name: shimmer;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
