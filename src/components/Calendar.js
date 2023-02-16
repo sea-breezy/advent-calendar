@@ -9,9 +9,6 @@ export default function Calendar() {
   const dayOfDec = date.getDate();
   const month = date.getMonth();
 
-  // const data = [
-  //   { id: 1, day: 1, text: "hello", link: "https://www.google.co.uk/" },
-  //   { id: 2, day: 2, text: "wooo", link: "https://www.google.co.uk/" },
 
   return (
     <div div className="calendar">
