@@ -8,6 +8,8 @@ function App() {
   const date = new Date();
   const day = date.getDate();
   const [dayOfDec] = useState(day);
+  
+  console.log("This app will only shows you activities in December and they will be revealed day-by-day :)")
 
   useEffect(() => {
     document.title = dayOfDec;
