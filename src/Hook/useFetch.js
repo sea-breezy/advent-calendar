@@ -17,7 +17,6 @@ function useFetch(fetchUrl) {
 
   if (error) {
     console.log(error);
-    console.log(data);
     return <p>Error!</p>;
   }
   console.log(data);
