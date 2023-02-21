@@ -2,6 +2,8 @@
 
 This festive app will give you Christmas activities ideas wrapped in gift boxes!
 
+You won;t be able to access the activities before their time so, if you're here before December, have a look at it again near Xmas time!
+
 <img src="App_screenshot.png" alt="Screenshot of advent calendar app">
 
 ## Demo
